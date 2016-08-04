@@ -6,8 +6,16 @@
     android:layout_height="match_parent"
     tools:context="highwin.zgs.customtouchcircleview.MainActivity">
 
+    <SeekBar
+        android:id="@+id/sb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="360"
+        android:progress="0"/>
+
     <highwin.zgs.customtouchcircleview.CustomTouchCircleView
-        android:layout_width="200dp"
+        android:id="@+id/ctcv"
+        android:layout_width="500dp"
         android:layout_height="200dp"
         android:layout_centerInParent="true"
         />
